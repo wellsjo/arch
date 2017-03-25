@@ -10,15 +10,14 @@ sudo pacman -S xorg-server
 sudo pacman -S xorg-xinit
 sudo pacman -S termite
 
-sudo pacman -S mesa     # OpenGL
-sudo pacman -S xsel     # for copy/paste
-sudo pacman -S yaourt   # AUR package installs
-```
+sudo pacman -S mesa           # OpenGL
+sudo pacman -S xsel           # for copy/paste
+sudo pacman -S yaourt         # AUR package installs
 
-## Window manager
-```bash
-yaourt -S i3-gaps
+# AUR
+yaourt -S i3-gaps             # Window manager
 yaourt -S i3blocks-gaps-git
+yaourt -S ttf-ms-fonts
 ```
 
 ## Create ~/.xinitrc
