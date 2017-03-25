@@ -22,7 +22,7 @@ sudo pacman -S xorg-xrandr
 sudo pacman -S dmenu
 sudo pacman -S compton
 
-yaourt -S i3-gaps             
+yaourt -S i3-gaps-next-git             
 yaourt -S i3blocks-gaps-git
 yaourt -S ttf-ms-fonts
 ```
