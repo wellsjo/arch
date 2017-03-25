@@ -1,4 +1,5 @@
 ## Setup
+(this is incomplete)
 
 ### pacman mirrorlist
 ```
