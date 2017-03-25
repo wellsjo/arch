@@ -1,5 +1,4 @@
-# arch
-Arch Linux post-install setup
+# Post-installation setup
 
 ## Basics
 ```bash
