@@ -11,8 +11,8 @@ rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
 ```
 
 ### Create arch.conf
-Get uuid of root: `blkid -s PARTUUID -o value /dev/sdbX`
-`/boot/loader/entries/arch.conf`
+Get uuid of root into file first: `blkid -s PARTUUID -o value /dev/sdbX > /boot/loader/entries/arch.conf`
+Edit file to this
 ```
 title Arch Linux
 linux /vmlinuz-linux
