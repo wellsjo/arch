@@ -10,6 +10,13 @@ set -i 's/^#Server/Server' /etc/pacman.d/mirrorlist.backup
 rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
 ```
 
+## Making bootable
+
+### Install intel-ucode
+```
+pacman -S intel-ucode
+```
+
 ### Create arch.conf
 Get uuid of root into f ile first: `blkid -s PARTUUID -o value /dev/sdbX > /boot/loader/entries/arch.conf`  
 Then edit file to this:
@@ -18,4 +25,9 @@ title Arch Linux
 linux /vmlinuz-linux
 initrd /initramfs-linux.img
 options root=PARTUUID=<root uuid> rw
+```
+
+### Install gpu drivers (NVIDIA)
+```
+pacman -S nvidia lib32-nvidia-utils
 ```
