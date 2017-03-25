@@ -36,7 +36,7 @@ Rebooot system
 
 ### Network
 Find ethernet device, start it, and enable it for continued use
-```
+```bash
 ip link # to get the device id
 sudo ip link set <device> up
 sudo systemctl start dhcpcd@<device>.service
