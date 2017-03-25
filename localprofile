@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Better man pages
+export PAGER=most
+
+# Copy/paste
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
+# Terminal Colors
+alias ls="ls --color=always"
+alias grep="grep --color=auto"
