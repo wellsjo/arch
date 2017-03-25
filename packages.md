@@ -9,6 +9,7 @@ sudo pacman -S xorg-server
 sudo pacman -S xorg-xinit
 sudo pacman -S termite
 sudo pacman -S dmenu
+sudo pacman -S most
 sudo pacman -S feh
 
 sudo pacman -S mesa           # OpenGL
