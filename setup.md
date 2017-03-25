@@ -31,3 +31,14 @@ options root=PARTUUID=<root uuid> rw
 ```
 pacman -S nvidia lib32-nvidia-utils
 ```
+
+Rebooot system
+
+### Network
+Find ethernet device, start it, and enable it for continued use
+```
+ip link
+sudo ip link set <device> up
+sudo systemctl start dhcpcd@<device>.service
+sudo systemctl enable dhcpcd@<device>.service
+```
