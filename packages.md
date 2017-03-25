@@ -8,6 +8,7 @@ sudo pacman -S git
 sudo pacman -S openssh
 
 sudo pacman -S termite        # Terminal
+sudo pacman -S conky          # System monitor
 sudo pacman -S most           # Pager (improved less)
 sudo pacman -S feh            # Image viewer
 sudo pacman -S mesa           # OpenGL
