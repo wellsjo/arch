@@ -7,7 +7,8 @@ sudo pacman -S vim
 sudo pacman -S git
 sudo pacman -S openssh
 
-sudo pacman -S mpstat         # 
+sudo pacman -S mpstat
+sudo pacman -S screenfetch
 sudo pacman -S termite        # Terminal
 sudo pacman -S conky          # System monitor
 sudo pacman -S most           # Pager (improved less)
