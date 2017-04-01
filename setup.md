@@ -43,3 +43,6 @@ sudo ip link set <device> up
 sudo systemctl start dhcpcd@<device>.service
 sudo systemctl enable dhcpcd@<device>.service
 ```
+
+### Dotfiles
+See https://github.com/wellsjo/dotfiles
