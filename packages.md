@@ -9,6 +9,7 @@ sudo pacman -S openssh
 
 sudo pacman -S mpstat
 sudo pacman -S screenfetch
+
 sudo pacman -S termite        # Terminal
 sudo pacman -S conky          # System monitor
 sudo pacman -S most           # Pager (improved less)
@@ -24,9 +25,10 @@ sudo pacman -S xorg-xrandr
 sudo pacman -S dmenu
 sudo pacman -S compton
 
-yaourt -S i3-gaps-next-git             
-yaourt -S i3blocks-gaps-git
-yaourt -S ttf-ms-fonts
+yaourt -S i3-gaps-next-git    # Window manager         
+yaourt -S i3blocks-gaps-git   
+yaourt -S ttf-ms-fonts        # Microsoft fonts (Courier New)
+yaourt -S escrotum-git        # Screenshots
 ```
 
 ## Applications
