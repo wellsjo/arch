@@ -10,6 +10,7 @@ sudo pacman -S openssh
 sudo pacman -S mpstat
 sudo pacman -S screenfetch
 
+sudo pacman -S rofi           # Launcher
 sudo pacman -S termite        # Terminal
 sudo pacman -S conky          # System monitor
 sudo pacman -S most           # Pager (improved less)
